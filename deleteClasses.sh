@@ -40,8 +40,8 @@ fi
 echo "Logging in to $jssURL as $jssUser"
 
 if [ -z $searchCriteria ]; then 
-	echo "Please enter the search criteria you would like to use (example: S1 for Semester 1 classes):"
-	read -r -s searchCriteria
+	echo "Please enter the search criteria you would like to use (example: S1 for Semester 1 classes). If you want to delete ALL classes, leave this blank and press enter:"
+	read -r searchCriteria
 fi
 
 

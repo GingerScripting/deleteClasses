@@ -28,7 +28,7 @@ if [ -z $jssURL ]; then
 fi 
 
 if [ -z $jssUser ]; then
-	echo "Please enter your Jamf Pro username:"
+	echo "Please enter the Jamf Pro username for an account that has permission to delete classes:"
 	read -r jssUser
 fi 
 
